@@ -1,0 +1,154 @@
+ /* Responsividade para dispositivos móveis */
+ @media (max-width: 768px) {
+  body {
+    text-align: left;
+  }
+
+  .sobre_edn,
+  .foto_perfil_aluno {
+    width: 100%;
+    height: auto;
+  }
+
+  .two-columns {
+    column-count: 1;
+  }
+}
+
+body{
+  text-align: center;
+  font-family: Open Sans, sans-serif;
+  background-color: #FFFF;
+  color: #7A7A7A;
+  margin: 0px 0px 30px 0px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.logo {
+  max-width: 150px; /* ajuste o tamanho máximo da logo conforme necessário */
+  margin-top: 2px; /* ajuste o espaçamento superior conforme necessário */
+  margin-bottom: 2px; /* ajuste o espaçamento inferior conforme necessário */
+}
+
+.sobre_edn {
+  margin-top: 40px; /* ajuste o espaçamento superior conforme necessário */
+  margin-bottom: 10px; /* ajuste o espaçamento inferior conforme necessário */
+  width: 100%;
+  max-width: 100%; /* adicionado para garantir que a largura não ultrapasse o espaço do conteúdo */
+  height: auto; /* adicionado para manter a proporção da imagem */
+}
+
+.h1_título{
+    font-size: 50px;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.two-columns {
+  columns: 2;
+  column-gap: 30px;
+  padding: 2px;
+  font-size: 20px;
+  text-align: justify;
+  color: #7A7A7A;
+}
+.about-me {
+  text-align:justify;
+}
+
+h2{
+  color:#54595F;
+  font-size: 25px;
+  background-color: #f2f2f285;
+}
+
+.titulo-verde{
+  color: #54595F;
+}
+
+hr{
+  color: #d9d9e986;
+}
+
+section{
+  width: 60%;
+  margin: 0 auto;
+}
+
+h1{
+  font-size: 50px;
+  font-weight: 300;
+}
+
+section section{
+  width: 100%
+}
+h3{
+  font-size: 20px;
+  font-style: italic;
+}
+
+p{
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.foto_perfil_aluno{
+  width: 30%;
+}
+
+ul{
+  list-style-type: none;
+  line-height: 2;
+  padding-left: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #6EC1E4;
+  font-weight: 700;
+}
+
+.principal{
+  background: #6EC1E4;
+  height: 40px;
+  max-width: 86%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.principal a{
+  color: #FFF;
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+.principal li{
+  display: inline-block;
+  line-height: 2.5;
+  margin: 0 89px;
+}
+
+button{
+  background: #edf4ff85;
+  border: 1px solid transparent;
+  padding: 2px 20px;
+  border-radius: 3px;
+}
+
+#rodape{
+  font-size: 15px;
+  padding: 10px;
+  background-color:#6EC1E4!important;
+  color: #FFF;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  text-align: center;
+}
